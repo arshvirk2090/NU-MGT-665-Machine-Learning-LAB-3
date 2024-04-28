@@ -13,15 +13,13 @@ This repository contains R code for performing dimensionality reduction and clus
 
 2. **Perform Unsupervised Learning**: Run `unsupervised_learning.R` to perform dimensionality reduction and clustering on the simulated data.
 
-## Results and Analysis
-
-- **Dimensionality Reduction and Clustering Approach**: 
+## Dimensionality Reduction and Clustering Approach
 
 1. **Dimensionality reduction**: The approach utilized Principal Component Analysis (PCA) for reducing the dimensionality of the data (Shi 2021). PCA transforms the original features into a lower-dimensional space while preserving the variance in the data. This was done using the prcomp function in R.
 
 2. **Clustering Approach**: KMeans clustering was chosen as the clustering algorithm. The optimal number of clusters was determined using the elbow method, which plots the within-cluster sum of squares (WSS) against the number of clusters. The "elbow point" indicates the optimal number of clusters where adding more clusters does not significantly improve the WSS (Adiwijaya 2018). Davies-Bouldin Index (DBI) was calculated to evaluate the quality of clustering.
   
-- **Results of Analysis**:
+## Results and Analysis
   
 - Number of clusters identified: Based on the elbow method, the optimal number of clusters was determined to be 3.
 - Characteristics of each cluster: Clusters were visualized in a scatter plot where each point represented a student. Clusters were differentiated by color. Additionally, cluster centers were plotted to illustrate the central tendency of each cluster. In hierarchical clustering, the dendrogram was cut into 3 clusters.
