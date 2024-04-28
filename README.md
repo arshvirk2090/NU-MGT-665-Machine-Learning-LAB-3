@@ -22,9 +22,11 @@ This repository contains R code for performing dimensionality reduction and clus
 2. **Clustering Approach**: KMeans clustering was chosen as the clustering algorithm. The optimal number of clusters was determined using the elbow method, which plots the within-cluster sum of squares (WSS) against the number of clusters. The "elbow point" indicates the optimal number of clusters where adding more clusters does not significantly improve the WSS (Adiwijaya 2018). Davies-Bouldin Index (DBI) was calculated to evaluate the quality of clustering.
   
 - **Results of Analysis**:
-  - Number of clusters identified: 3
-  - Characteristics of each cluster: High-performing and highly engaged students, moderately performing and engaged students, and lower-performing and less engaged students.
-  - Insights gained: Clusters provide insights for targeted interventions, predictive modeling, curriculum design, and continuous improvement in learning outcomes.
+  
+- Number of clusters identified: Based on the elbow method, the optimal number of clusters was determined to be 3.
+- Characteristics of each cluster: Clusters were visualized in a scatter plot where each point represented a student. Clusters were differentiated by color. Additionally, cluster centers were plotted to illustrate the central tendency of each cluster. In hierarchical clustering, the dendrogram was cut into 3 clusters.
+- Insights gained: The analysis provided insights into how students can be grouped based on their engagement and performance. Cluster 1 seemed to represent high-performing and highly engaged students, Cluster 2 had moderately performing and engaged students, and Cluster 3 consisted of lower-performing and less engaged students.
+
 
 ## Implications for Learning Analytics
 
