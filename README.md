@@ -28,10 +28,10 @@ This repository contains R code for performing dimensionality reduction and clus
 
 ## Implications for Learning Analytics
 
-•	**Tailored interventions**: Identifying clusters allows for targeted interventions. For instance, resources and support can be directed towards Cluster 3 students to improve their engagement and performance.
-•	**Predictive modeling**: Clustering can serve as a basis for predictive modeling. By understanding the characteristics of each cluster, educational institutions can develop models to predict student outcomes and provide proactive support.
-•	**Curriculum design**: Insights from clustering can inform curriculum design by identifying areas where adjustments are needed to better cater to the needs of different student groups.
-•	**Continuous improvement**: Regular analysis of student clusters enables continuous improvement in teaching methodologies and support systems, leading to enhanced learning outcomes.
+-	**Tailored interventions**: Identifying clusters allows for targeted interventions. For instance, resources and support can be directed towards Cluster 3 students to improve their engagement and performance.
+-	**Predictive modeling**: Clustering can serve as a basis for predictive modeling. By understanding the characteristics of each cluster, educational institutions can develop models to predict student outcomes and provide proactive support.
+-	**Curriculum design**: Insights from clustering can inform curriculum design by identifying areas where adjustments are needed to better cater to the needs of different student groups.
+-	**Continuous improvement**: Regular analysis of student clusters enables continuous improvement in teaching methodologies and support systems, leading to enhanced learning outcomes.
 
 
 
